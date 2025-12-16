@@ -13,7 +13,7 @@ const Hero = () => {
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
-                            <h1>Shaping 
+                            <h1>Transforming 
                                <span className="slide">
                                  <span className="wrapper">
                                     {words.map((word, index) => (
@@ -33,8 +33,8 @@ const Hero = () => {
                         </span>
                                 
                         </h1>
-                        <h1>into Real projects </h1>
-                        <h1>that Deliver Results </h1>
+                        <h1>into real digital projects </h1>
+                        <h1>that create value for people and teams </h1>
 
                         </div>
 
