@@ -1,5 +1,6 @@
 import Button from '../components/Button';
 import { words } from '../constants'
+import HeroExperience from '../components/HeroModels/HeroExperience';
 
 const Hero = () => {
     return (
@@ -53,7 +54,7 @@ const Hero = () => {
 
                 <figure className='hero-3d-container'>
                     <div className="hero-3d-layout border-red-200 border-2">
-
+                        <HeroExperience/>
                     </div>
                 </figure>
 
