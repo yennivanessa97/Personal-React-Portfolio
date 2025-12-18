@@ -20,7 +20,7 @@ const Hero = () => {
                                     {words.map((word, index) => (
                                      <span
                                         key={index}
-                                        className="flex items-center md:gap-3 gap-1 pb-2"
+                                        className="flex items-center md:gap-3 gap-1 whitespace-nowrap"
                                  >
                                     <img
                                         src={word.imgPath}
@@ -50,6 +50,12 @@ const Hero = () => {
 
 
                 {/* Right Section : 3d model */}
+
+                <figure className='hero-3d-container'>
+                    <div className="hero-3d-layout border-red-200 border-2">
+
+                    </div>
+                </figure>
 
 
 
