@@ -2,6 +2,8 @@ import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { Room } from './Room';
 import {useThree} from '@react-three/fiber';
+import HeroLights from './HeroLights';
+import Particles from './Particles';
 
 
 
@@ -51,9 +53,7 @@ function Scene() {
 
   return (
     <>
-      <ambientLight intensity={0.2} color="#1a1a40" />
-      <directionalLight position={[5, 5, 5]} intensity={1} />
-
+      
       <OrbitControls
         enablePan={false}
         enableZoom={viewport.width > 6}
@@ -62,7 +62,8 @@ function Scene() {
         minPolarAngle={Math.PI / 5}
         maxPolarAngle={Math.PI / 2}
       />
-
+      <HeroLights />
+      <Particles count={100}/>
       <group
         scale={scale}
         position={[0, -3.5, 0]}
