@@ -108,13 +108,16 @@ section {
   }
 
   .hero-3d-layout {
-    @apply absolute inset-0 
-         xl:-top-20 xl:-right-20;
+    @apply w-full h-full;
+    /* @apply absolute inset-0 
+         xl:-top-20 xl:-right-20; */
     /* @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0; */
   }
 
   .hero-3d-container {
-  @apply relative w-full min-h-[60vh];
+      @apply relative w-full h-[60vh] md:h-[70vh] xl:h-[90vh];
+
+  /* @apply relative w-full min-h-[60vh]; */
 }
 
 
