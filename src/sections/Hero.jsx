@@ -33,7 +33,7 @@ const Hero = () => {
                                     {words.map((word, index) => (
                                      <span
                                         key={index}
-                                        className="flex items-center md:gap-3 gap-1 whitespace-nowrap"
+                                        className="flex items-center md:gap-3 gap-1 pb-2"
                                  >
                                     <img
                                         src={word.imgPath}
@@ -51,7 +51,7 @@ const Hero = () => {
                         <h1>that create value for people and teams </h1>
 
                         </div>
-                        <p className='text-white-50 md:text-xl relative z-10'> Hi, I'm Yenni Delgado, I combine psychology and software engineering to support Agile teams, facilitate collaboration, and deliver meaningful digital solutions</p>
+                        <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'> Hi, I'm Yenni Delgado, I combine psychology and software engineering to support Agile teams, facilitate collaboration, and deliver meaningful digital solutions</p>
                         <Button
                         className="md:w-80 md:h-16 w-60 h-12" 
                         id = "button"
@@ -64,9 +64,9 @@ const Hero = () => {
 
                 {/* Right Section : 3d model */}
 
-                <figure className='hero-3d-container'>
+                 <figure>
                     <div className="hero-3d-layout">
-                        <HeroExperience/>
+                    <HeroExperience />
                     </div>
                 </figure>
 
